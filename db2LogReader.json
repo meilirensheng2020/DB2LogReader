@@ -1,0 +1,11 @@
+{
+  "name": "sampledb",
+  "single-read": 0,
+  "reader": {"user": "db2inst1", "password": "!QAZ2wsx","database": "sample"},
+  "format": {"type": "json","message":0},
+  "redo-read-sleep-us":1000,
+  "memory-min-mb": 128,
+  "memory-max-mb": 1024,
+  "tables": ["DB2INST1.T01","DB2INST1.T03","DB2INST1.T02","DB2INST1.X","DB2INST1.X3"],
+  "writer": {"type": "file","name":"data.txt"}
+}
