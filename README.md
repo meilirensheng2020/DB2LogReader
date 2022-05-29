@@ -1,5 +1,5 @@
 
-# DB2LogReader
+# DB2LogSync
 Config files for my GitHub profile.
 
 DB2LogSync 是一款基于日志解析的CDC工具，通过解析DB2 REDO文件，获取变化的数据，写入KAFKA或者文件。
