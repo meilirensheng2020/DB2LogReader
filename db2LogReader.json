@@ -2,7 +2,7 @@
   "name": "sampledb",
   "single-read": 0,
   "reader": {"user": "db2inst1", "password": "!QAZ2wsx","database": "sample"},
-  "format": {"type": "json","message":0},
+  "format": {"type": "json"},
   "redo-read-sleep-us":1000,
   "memory-min-mb": 128,
   "memory-max-mb": 1024,
